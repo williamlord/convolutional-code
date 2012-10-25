@@ -10,3 +10,14 @@
 *.lai
 *.la
 *.a
+
+# Solution files
+*.opensdf
+*.sdf
+*.suo
+
+# Debug
+Debug/
+
+# ReSharper
+_Resharper*
