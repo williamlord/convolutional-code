@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <iostream>
-#include "itpp/itcomm.h"
+#include <itpp/itcomm.h>
 
 #include "conv.h"
 #include "fileser.h"

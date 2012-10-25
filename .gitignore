@@ -22,5 +22,8 @@
 # Debug
 Debug/
 
+# Release
+Release/
+
 # ReSharper
 _Resharper*

@@ -11,7 +11,7 @@
 #ifndef _CONV_H_
 #define _CONV_H_
 
-#include "itpp/itbase.h"
+#include <itpp/itbase.h>
 #include "conv.h"
 
 /*! \defgroup FEC Forward Error Correction

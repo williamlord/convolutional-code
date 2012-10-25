@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "itpp/itbase.h"
+#include <itpp/itbase.h>
 
 /*!
  \ingroup file_service
@@ -38,7 +38,7 @@ class FILESERVICE
 	public:
 
 		//! Class Constructor, sets the \a LENGTH to 500;
-		FILESERVICE(){LENGTH = 500;}
+		FILESERVICE(){};
 		
 		//!Scans an integer from the file \b InputFile
 		int scan_integer(FILE *InputFile);
@@ -58,7 +58,7 @@ class FILESERVICE
 
 	private:
 		//! The length of the input string length
-		int LENGTH ;
+		static const int LENGTH = 500;
 };
 
 //void output_parameters(FILE*, struct source_information*);
