@@ -1,0 +1,9 @@
+100   # max number of frame
+0     # min SNR
+1     # SNR step
+10    # max SNR
+1     # geometrical gain: source-destination
+4     # geometrical gain: source-relay
+4     # geometrical gain: relay-destination
+0     # channel type: fast_fading=0  quasi_static_fading=1
+2     # mapper_bps: 1=BPSK, 2=4PSK, 3=8PSK

@@ -16,6 +16,9 @@
 *.sdf
 *.suo
 
+# Project files
+*.user
+
 # Debug
 Debug/
 

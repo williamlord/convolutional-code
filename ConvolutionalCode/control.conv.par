@@ -1,0 +1,8 @@
+4	# conv mode : 0=uncoded, 1=NSC, 2=SC, 3=RSC, 4=RNSC
+1	# k : length of dataword
+2	# n : length of codeword 
+4	# L : code memory length
+0	# code termination mode, 0=OFF, 1=ON
+2	# decoder_type : 1=EXACT_LOG_MAP, 2=APPROX_LOG_MAP, 3=MAX_LOG_MAP
+1200  	# no_of_symbols : number of coded symbols in a block (plus tail symbols)
+cc-m4-4psk_fast_fading_channel.dat # result file name : specify a name for your result file
